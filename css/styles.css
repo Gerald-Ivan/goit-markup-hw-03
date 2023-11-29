@@ -31,6 +31,8 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-brand);
+
+    margin: 76px;
 }
 /* remove text-decoration */
 .link{
@@ -186,4 +188,27 @@ body{
 .top-buttons:focus{
     color: var(--white-background);
     background-color: var(--pressed-state);
+}
+/* Homework 3 */
+.header{
+    border-bottom: 1px solid #E7E9FC;
+}
+.website-header-div{
+    display: flex;
+}
+.container{
+    width: 1158px;
+    margin: 0;
+    padding: 0 15px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.list{
+    display: flex;
+    gap: 40px;
+}
+.navigation-link{
+    padding: 24px 0;
 }
