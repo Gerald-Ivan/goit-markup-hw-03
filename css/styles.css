@@ -129,6 +129,7 @@ body{
     color: var(--dark);
     /* hw3 */
     margin-bottom: 8px;
+    width: calc((100% - 72px)/4);
 }
 /* feature description */
 .description{
@@ -202,17 +203,21 @@ body{
     border: 1px solid transparent;
 }
 /* Homework 3 */
-
+img{
+    display: block;
+}
 .header{
     border-bottom: 1px solid #E7E9FC;
 }
 .website-header-div{
     display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .container{
     width: 1158px;
-    margin: 0;
-    padding: 0 15px;
+    margin: 0 auto;
+   
 }
 .navigation{
     display: flex;
@@ -250,6 +255,7 @@ body{
     gap: 24px;
 }
 .list-description{
+    gap: 24px;
     width: calc((100% -72px)/4);
 }
 /* section 3 */
@@ -335,7 +341,7 @@ body{
 }
 /* portfolio */
 .section-portfolio{
-    padding-top: 96px 0 120px 0;
+    padding: 96px 0 120px 0;
 }
 .button{
     display: flex;
@@ -360,3 +366,13 @@ body{
 .portfolio-header{
     margin-bottom: 8px;
 }
+.visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+  }
