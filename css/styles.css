@@ -16,7 +16,10 @@
     --roboto-font: Roboto, sans-serif;
     --raleway-font: Raleway, sans-serif;
 }
-
+* {
+    margin: 0;
+    padding: 0;
+}
 /* body-default-design */
 body {
     font-family: var(--roboto-font);
@@ -238,7 +241,7 @@ body {
 }
 
 /* hw3 */
-.visually-hidden {
+.visually-hidden{
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     height: 1px;
@@ -337,7 +340,7 @@ img{
 .portfolio-card{
     /* margin-right: 24px;
     margin-bottom: 48px; */
-    width: calc((100% - 48px) /3);
+    width: calc((100% - 48px)/3);
 }
 .portfolio-card-third{
     /* margin-right: 0;
